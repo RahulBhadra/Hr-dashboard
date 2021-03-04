@@ -1,4 +1,4 @@
-  var options = {
+var options = {
           series: [44, 55],
           labels: ['Hired', 'Rejected'],
           chart: {
@@ -19,4 +19,3 @@
 
         var chart = new ApexCharts(document.querySelector("#chart"), options);
         chart.render();
-      
